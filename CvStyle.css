@@ -1,0 +1,111 @@
+.body {
+  /*   font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Pontano Sans';
+ /*  font-family: Ubuntu; */
+  /* font-family: "EB Garamond", serif; */
+  font-size: medium;
+  /* margin: 50px 50px 50px 50px; */
+  /* font-family: "Courier New"; */
+}
+
+
+.about-me-p{
+  font-family: Ubuntu;
+  font-size: large;
+}
+
+.cls-title {
+  margin-bottom: 20px;
+}
+
+.cls-fullname {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.cls-status {
+  font-weight: 50;
+  font-size: 25px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.stamp {
+  transform: rotate(35deg);
+  color: #555;
+  font-size: 90%;
+  font-weight: 70;
+  border: 0.25rem solid #555;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  font-family: 'Courier';
+  -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+  -webkit-mask-size: 944px 604px;
+  mix-blend-mode: multiply;
+}
+
+.stamp-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cls-contact {
+  margin: 10px 0px 25px 0px;
+}
+
+
+.cls-contact-direct {
+  margin: 3px 0px 15px 0px;
+}
+
+.cls-media-link {
+  color: #555;
+}
+
+.cls-media-link:hover {
+  color: black;
+}
+
+.cls-heading {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-weight: 700;
+  padding-left: 2%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.cls-heading-line {
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.cls-job-title {
+  font-family: Georgia, serif;
+  font-weight: 700;
+}
+
+.cls-edu-diplome {
+  font-family: Georgia, serif;
+  font-weight: 700;
+}
+
+.project-title {
+  font-family: Georgia, serif;
+  font-weight: 700;
+}
+
+/*
+  .cls-experiences-pro{
+      border: 1px solid grey;
+      border-radius: 8px;
+
+  }
+  .cls-company-name{
+      
+  }
+  .cls-body{
+      padd
+  } */
