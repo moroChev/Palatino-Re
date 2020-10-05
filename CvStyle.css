@@ -1,15 +1,16 @@
 .body {
   /*   font-family: Georgia, 'Times New Roman', Times, serif; */
   font-family: 'Pontano Sans';
- /*  font-family: Ubuntu; */
+  /*  font-family: Ubuntu; */
   /* font-family: "EB Garamond", serif; */
   font-size: medium;
+  background: rgb(236, 253, 254);
+  background: linear-gradient(90deg, rgba(236, 253, 254, 1) 0%, rgba(237, 245, 247, 1) 100%);
   /* margin: 50px 50px 50px 50px; */
   /* font-family: "Courier New"; */
 }
 
-
-.about-me-p{
+.about-me-p {
   font-family: Ubuntu;
   font-size: large;
 }
@@ -54,7 +55,6 @@
 .cls-contact {
   margin: 10px 0px 25px 0px;
 }
-
 
 .cls-contact-direct {
   margin: 3px 0px 15px 0px;
