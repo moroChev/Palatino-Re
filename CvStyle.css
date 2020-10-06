@@ -1,13 +1,17 @@
-.body {
+.body-1 {
   /*   font-family: Georgia, 'Times New Roman', Times, serif; */
   font-family: 'Pontano Sans';
-  /*  font-family: Ubuntu; */
-  /* font-family: "EB Garamond", serif; */
   font-size: medium;
-  background: rgb(236, 253, 254);
-  background: linear-gradient(90deg, rgba(236, 253, 254, 1) 0%, rgba(237, 245, 247, 1) 100%);
+  background-color: white;
+  border-radius: 30px;
   /* margin: 50px 50px 50px 50px; */
   /* font-family: "Courier New"; */
+}
+
+.body {
+  background-image: linear-gradient(to right top, #051937, #141f3c, #1f2540, #2a2c45, #33334a);
+/*   background: rgb(236, 253, 254);
+  background: linear-gradient(90deg, rgba(236, 253, 254, 1) 0%, rgba(237, 245, 247, 1) 100%); */
 }
 
 .about-me-p {
@@ -22,6 +26,7 @@
 .cls-fullname {
   font-weight: 700;
   font-size: 25px;
+  margin-top: 20px;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
@@ -92,12 +97,12 @@
   font-weight: 700;
 }
 
-.cls-edu-field{
+.cls-edu-field {
   display: flex;
   flex-direction: column;
 }
 
-.cls-edu-module{
+.cls-edu-module {
   margin: 0px 0px 0px 0px;
 }
 
