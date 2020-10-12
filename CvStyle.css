@@ -15,7 +15,8 @@
 }
 
 .about-me-p {
-  font-family: Ubuntu;
+  /* font-family: Ubuntu; */
+  font-family: 'Pontano Sans';
   font-size: large;
 }
 
