@@ -4,14 +4,10 @@
   font-size: medium;
   background-color: white;
   border-radius: 30px;
-  /* margin: 50px 50px 50px 50px; */
-  /* font-family: "Courier New"; */
 }
 
 .body {
   background-image: linear-gradient(to right top, #051937, #141f3c, #1f2540, #2a2c45, #33334a);
-/*   background: rgb(236, 253, 254);
-  background: linear-gradient(90deg, rgba(236, 253, 254, 1) 0%, rgba(237, 245, 247, 1) 100%); */
 }
 
 .about-me-p {
@@ -98,6 +94,13 @@
   font-weight: 700;
 }
 
+.cls-edu-school{
+  color: #141f3c;
+}
+.cls-edu-years{
+  color: #555;
+}
+
 .cls-edu-field {
   display: flex;
   flex-direction: column;
@@ -112,15 +115,9 @@
   font-weight: 700;
 }
 
-/*
-  .cls-experiences-pro{
-      border: 1px solid grey;
-      border-radius: 8px;
-
-  }
-  .cls-company-name{
-      
-  }
-  .cls-body{
-      padd
-  } */
+.vl {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: auto;
+  border-left: 1px outset black;
+}
